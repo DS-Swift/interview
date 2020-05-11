@@ -4,7 +4,6 @@ import Foundation
 /// - Parameters:
 ///   - elements: 可排序的数组
 ///   - comparsion: 比较
-///   - Author: DSperson
 public func selectionSort<T: Comparable>(_ elements: [T], _ comparsion: (T, T) -> Bool) -> [T] {
     var array = elements
     for i in 0..<array.count {
