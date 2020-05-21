@@ -23,7 +23,7 @@ public func lowestCommon<T: Comparable>(root: TreeNode<T>?, p: TreeNode<T>, q: T
 }
 
 
-/// 判断二叉树的最近公共祖先
+/// 判断二叉搜索树的最近公共祖先
 /// - Parameters:
 ///   - root: <#root description#>
 ///   - p: <#p description#>
@@ -39,4 +39,13 @@ public func lowestCommonWithBST<T: Comparable>(root: TreeNode<T>?, p: TreeNode<T
         return lowestCommonWithBST(root: root?.right, p: p, q: q)
     }
     return root
+}
+
+public func recrision(level: Int) {
+    if level <= 0 {
+        return
+    }
+    print("current", level)
+    recrision(level: level - 1)
+    print("recrion", level)
 }
