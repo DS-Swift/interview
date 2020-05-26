@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  String
+//  Array
 //
-//  Created by DSperson on 2020/5/25.
+//  Created by DSperson on 2020/5/26.
 //  Copyright © 2020 BAT. All rights reserved.
 //
 
@@ -16,9 +16,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-//       let n = findAnagrams(s: "abccabc", p: "cba")
-        let l = longString(str: "abcabcbbadcmlko,/.'\\p")
-        print(l)
+        var nums1 = [1, 2, 3, 0, 0, 0]
+        let m = 3
+
+        let nums2 = [2, 5, 6]
+        let n = 3
+        merge(&nums1, m, nums2, n)
+        print(nums1)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
