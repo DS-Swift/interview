@@ -11,6 +11,10 @@
 		21F36E1A247CB5F9007422BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F36E19247CB5F9007422BD /* Assets.xcassets */; };
 		21F36E1D247CB5FA007422BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F36E1B247CB5FA007422BD /* MainMenu.xib */; };
 		21F36E26247CB870007422BD /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F36E25247CB870007422BD /* Merge.swift */; };
+		21F36E2A247CDDA4007422BD /* FindData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F36E29247CDDA4007422BD /* FindData.swift */; };
+		21F36E2E247CE4B1007422BD /* SumTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F36E2D247CE4B1007422BD /* SumTarget.swift */; };
+		21F36E34247CE9F5007422BD /* MoreThenHalfNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F36E33247CE9F5007422BD /* MoreThenHalfNumber.swift */; };
+		21F36E37247CF279007422BD /* FindCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F36E36247CF279007422BD /* FindCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		21F36E1E247CB5FA007422BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F36E1F247CB5FA007422BD /* Array.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Array.entitlements; sourceTree = "<group>"; };
 		21F36E25247CB870007422BD /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		21F36E29247CDDA4007422BD /* FindData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindData.swift; sourceTree = "<group>"; };
+		21F36E2D247CE4B1007422BD /* SumTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumTarget.swift; sourceTree = "<group>"; };
+		21F36E33247CE9F5007422BD /* MoreThenHalfNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreThenHalfNumber.swift; sourceTree = "<group>"; };
+		21F36E36247CF279007422BD /* FindCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +62,57 @@
 			isa = PBXGroup;
 			children = (
 				21F36E17247CB5F5007422BD /* AppDelegate.swift */,
-				21F36E25247CB870007422BD /* Merge.swift */,
+				21F36E35247CF266007422BD /* 求数组中共同元素 */,
+				21F36E32247CE9CE007422BD /* 数组中超过一半的数字 */,
+				21F36E2F247CE998007422BD /* 合并有序数组 */,
+				21F36E31247CE9B6007422BD /* 求和Target */,
+				21F36E30247CE9A4007422BD /* 数组重复元素 */,
 				21F36E19247CB5F9007422BD /* Assets.xcassets */,
 				21F36E1B247CB5FA007422BD /* MainMenu.xib */,
 				21F36E1E247CB5FA007422BD /* Info.plist */,
 				21F36E1F247CB5FA007422BD /* Array.entitlements */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		21F36E2F247CE998007422BD /* 合并有序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				21F36E25247CB870007422BD /* Merge.swift */,
+			);
+			path = "合并有序数组";
+			sourceTree = "<group>";
+		};
+		21F36E30247CE9A4007422BD /* 数组重复元素 */ = {
+			isa = PBXGroup;
+			children = (
+				21F36E29247CDDA4007422BD /* FindData.swift */,
+			);
+			path = "数组重复元素";
+			sourceTree = "<group>";
+		};
+		21F36E31247CE9B6007422BD /* 求和Target */ = {
+			isa = PBXGroup;
+			children = (
+				21F36E2D247CE4B1007422BD /* SumTarget.swift */,
+			);
+			path = "求和Target";
+			sourceTree = "<group>";
+		};
+		21F36E32247CE9CE007422BD /* 数组中超过一半的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				21F36E33247CE9F5007422BD /* MoreThenHalfNumber.swift */,
+			);
+			path = "数组中超过一半的数字";
+			sourceTree = "<group>";
+		};
+		21F36E35247CF266007422BD /* 求数组中共同元素 */ = {
+			isa = PBXGroup;
+			children = (
+				21F36E36247CF279007422BD /* FindCommon.swift */,
+			);
+			name = "求数组中共同元素";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F36E34247CE9F5007422BD /* MoreThenHalfNumber.swift in Sources */,
 				21F36E26247CB870007422BD /* Merge.swift in Sources */,
 				21F36E18247CB5F5007422BD /* AppDelegate.swift in Sources */,
+				21F36E37247CF279007422BD /* FindCommon.swift in Sources */,
+				21F36E2E247CE4B1007422BD /* SumTarget.swift in Sources */,
+				21F36E2A247CDDA4007422BD /* FindData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

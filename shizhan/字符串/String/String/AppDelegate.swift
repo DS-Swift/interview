@@ -19,6 +19,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 //       let n = findAnagrams(s: "abccabc", p: "cba")
         let l = longString(str: "abcabcbbadcmlko,/.'\\p")
         print(l)
+        let n = stringReserve(str: "abcabcbbadcmlko")
+        print(n)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

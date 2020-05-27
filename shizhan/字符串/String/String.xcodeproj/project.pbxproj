@@ -13,6 +13,7 @@
 		219B0BD5247B74C400F8A8FF /* MaxLongString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B0BD4247B74C400F8A8FF /* MaxLongString.swift */; };
 		219B0BD7247B769200F8A8FF /* MinSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B0BD6247B769200F8A8FF /* MinSubString.swift */; };
 		219B0BD9247BA5DE00F8A8FF /* FindAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B0BD8247BA5DE00F8A8FF /* FindAnagrams.swift */; };
+		21F36E2C247CE2B8007422BD /* StringReserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F36E2B247CE2B8007422BD /* StringReserve.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		219B0BD4247B74C400F8A8FF /* MaxLongString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLongString.swift; sourceTree = "<group>"; };
 		219B0BD6247B769200F8A8FF /* MinSubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSubString.swift; sourceTree = "<group>"; };
 		219B0BD8247BA5DE00F8A8FF /* FindAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAnagrams.swift; sourceTree = "<group>"; };
+		21F36E2B247CE2B8007422BD /* StringReserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringReserve.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +60,48 @@
 			isa = PBXGroup;
 			children = (
 				219B0BC6247B74B800F8A8FF /* AppDelegate.swift */,
-				219B0BD4247B74C400F8A8FF /* MaxLongString.swift */,
-				219B0BD6247B769200F8A8FF /* MinSubString.swift */,
-				219B0BD8247BA5DE00F8A8FF /* FindAnagrams.swift */,
+				21FCDB5E247DF32F00C1A195 /* 无重复最长子串(简单) */,
+				21F36E39247CFA47007422BD /* 最长子串(难) */,
+				21FCDB5D247DF2EE00C1A195 /* 字符串异位词 */,
+				21FCDB5F247DF34300C1A195 /* 字符串翻转 */,
 				219B0BC8247B74BB00F8A8FF /* Assets.xcassets */,
 				219B0BCA247B74BB00F8A8FF /* MainMenu.xib */,
 				219B0BCD247B74BB00F8A8FF /* Info.plist */,
 				219B0BCE247B74BB00F8A8FF /* String.entitlements */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		21F36E39247CFA47007422BD /* 最长子串(难) */ = {
+			isa = PBXGroup;
+			children = (
+				219B0BD6247B769200F8A8FF /* MinSubString.swift */,
+			);
+			name = "最长子串(难)";
+			sourceTree = "<group>";
+		};
+		21FCDB5D247DF2EE00C1A195 /* 字符串异位词 */ = {
+			isa = PBXGroup;
+			children = (
+				219B0BD8247BA5DE00F8A8FF /* FindAnagrams.swift */,
+			);
+			path = "字符串异位词";
+			sourceTree = "<group>";
+		};
+		21FCDB5E247DF32F00C1A195 /* 无重复最长子串(简单) */ = {
+			isa = PBXGroup;
+			children = (
+				219B0BD4247B74C400F8A8FF /* MaxLongString.swift */,
+			);
+			path = "无重复最长子串(简单)";
+			sourceTree = "<group>";
+		};
+		21FCDB5F247DF34300C1A195 /* 字符串翻转 */ = {
+			isa = PBXGroup;
+			children = (
+				21F36E2B247CE2B8007422BD /* StringReserve.swift */,
+			);
+			path = "字符串翻转";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F36E2C247CE2B8007422BD /* StringReserve.swift in Sources */,
 				219B0BD9247BA5DE00F8A8FF /* FindAnagrams.swift in Sources */,
 				219B0BC7247B74B800F8A8FF /* AppDelegate.swift in Sources */,
 				219B0BD5247B74C400F8A8FF /* MaxLongString.swift in Sources */,
