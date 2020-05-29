@@ -22,14 +22,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 //        cycle()
 //        d()
 //        find()
-        m()
+//        m()
+        re()
     }
     
     func findK<T>(root: TreeNode<T>) {
         let p = findKth(root: root, k: 3)
         print(p)
     }
-    func reverse<T>(root: TreeNode<T>) {
+    func reverse2<T>(root: TreeNode<T>) {
 //        reversePrintRecursive(root: root)
         reversePrintStack(root: root)
     }
@@ -59,6 +60,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let roo2 = TreeNode.generate(array: [0, 2, 5, 10])
         let m = merge(s: root, t: roo2)
         print(m)
+    }
+    func re() {
+        let root = TreeNode.generate(array: [1, 2, 3, 4, 5, 6, 7, 8, 9])
+        let p = reverse(node: root)
+        
+        print(p)
     }
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application

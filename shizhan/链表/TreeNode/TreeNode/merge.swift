@@ -19,11 +19,9 @@ public func merge<T: Comparable>(s: TreeNode<T>, t: TreeNode<T>) -> TreeNode<T> 
         if ns!.data <= nt!.data {
             p?.next = ns
             ns = ns?.next
-            print("1")
         } else if ns!.data > nt!.data {
             p?.next = nt
             nt = nt?.next
-            print("2")
         }
         p = p?.next
     }

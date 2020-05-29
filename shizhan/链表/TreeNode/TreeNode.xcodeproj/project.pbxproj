@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21489F0D247F4CA50047EEA9 /* reverseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21489F0C247F4CA50047EEA9 /* reverseNode.swift */; };
 		21FCDB6D247DFC6800C1A195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FCDB6C247DFC6800C1A195 /* AppDelegate.swift */; };
 		21FCDB6F247DFC6C00C1A195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FCDB6E247DFC6C00C1A195 /* Assets.xcassets */; };
 		21FCDB72247DFC6C00C1A195 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FCDB70247DFC6C00C1A195 /* MainMenu.xib */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21489F0C247F4CA50047EEA9 /* reverseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseNode.swift; sourceTree = "<group>"; };
 		21FCDB69247DFC6800C1A195 /* TreeNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FCDB6C247DFC6800C1A195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FCDB6E247DFC6C00C1A195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21489F0B247F4B2A0047EEA9 /* 翻转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				21489F0C247F4CA50047EEA9 /* reverseNode.swift */,
+			);
+			name = "翻转链表";
+			sourceTree = "<group>";
+		};
 		21FCDB60247DFC6800C1A195 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				21FCDB6C247DFC6800C1A195 /* AppDelegate.swift */,
 				21FCDB7D247E025000C1A195 /* TreeNode.swift */,
 				21FCDB82247E310300C1A195 /* Stack.swift */,
+				21489F0B247F4B2A0047EEA9 /* 翻转链表 */,
 				21FCDB90247E5DC300C1A195 /* 合并两个有序链表 */,
 				21FCDB8D247E509300C1A195 /* 公共节点 */,
 				21FCDB8A247E46CC00C1A195 /* 删除节点O(1) */,
@@ -221,6 +232,7 @@
 				21FCDB83247E310300C1A195 /* Stack.swift in Sources */,
 				21FCDB7C247E024000C1A195 /* K.swift in Sources */,
 				21FCDB86247E346A00C1A195 /* Loop.swift in Sources */,
+				21489F0D247F4CA50047EEA9 /* reverseNode.swift in Sources */,
 				21FCDB81247E2F7500C1A195 /* reversePrint.swift in Sources */,
 				21FCDB7E247E025000C1A195 /* TreeNode.swift in Sources */,
 			);
