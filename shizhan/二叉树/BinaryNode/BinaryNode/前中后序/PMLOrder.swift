@@ -64,6 +64,23 @@ class Sloution {
             }
         }
     }
+    
+    func inOrder2<T>(node: BinaryTree<T>) {
+        var head: BinaryTree<T>? = node
+        var stack: Stack<BinaryTree<T>> = Stack()
+        while head != nil || !stack.isEmpty {
+            if let h = head {
+                stack.push(t: h)
+                head = head?.left
+            } else {
+                head = stack.pop()
+                print(head?.data)
+                head = head?.right
+            }
+        }
+    }
+    
     /// 后续太麻烦
+    
     
 }
