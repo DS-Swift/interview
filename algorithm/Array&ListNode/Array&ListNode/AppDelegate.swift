@@ -16,9 +16,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        let node = Node.generate(array: [3, 1, 2, 4, 5])
-        let r = Node.reserver(node: node)
-        print(node, r)
+        let node = Node.generate(array: [3, 1, 2, 4, 2])
+        let node2 = Node(value: 2)
+        let next = Node(value: 3)
+        let nextNext = Node(value: 4)
+        node2.next = next
+        next.next = nextNext
+        nextNext.next = node2
+//        let r = Node.reserver(node: node)
+        let n = hasCycle(node: node2)
+        print(n)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
