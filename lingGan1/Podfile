@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+
+
+#workspace 'lingGan1.xcworkspace'
+#project 'lingGan1.xcodeproj'
+
+target 'LingGaniOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  platform :ios, '10.0'
+
+  # Pods for lingGan1
+  pod 'RealmSwift'
+  pod 'IceCream'
+end
+
+target 'lingGan1' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  platform :osx, '10.12'
+
+  # Pods for lingGan1
+  pod 'RealmSwift'
+  pod 'IceCream'
+end
