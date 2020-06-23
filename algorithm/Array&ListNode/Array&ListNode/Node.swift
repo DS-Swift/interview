@@ -47,6 +47,7 @@ open class Node<T> {
         return rs
     }
     
+    
     /// 两两翻转
     /// - Parameter node: Node
 //    public static func swapPairs(node: Node) -> Node {
@@ -70,4 +71,17 @@ extension Node where T: Comparable {
     func sort(node: Node?) {
         
     }
+}
+
+public func hasCycle<T>(node: Node<T>) -> Bool {
+    var next = node.next
+    var nextNext = next?.next
+    while nextNext != nil {
+        if next === nextNext {
+            return true
+        }
+        next = next?.next
+        nextNext = nextNext?.next?.next
+    }
+    return false
 }
