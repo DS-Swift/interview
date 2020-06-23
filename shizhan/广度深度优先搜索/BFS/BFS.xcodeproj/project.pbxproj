@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21158AD124989DE000670C5C /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21158AD024989DE000670C5C /* Codec.swift */; };
 		2193140724775EBD001CAC4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2193140624775EBD001CAC4E /* AppDelegate.swift */; };
 		2193140924775EC0001CAC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2193140824775EC0001CAC4E /* Assets.xcassets */; };
 		2193140C24775EC0001CAC4E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2193140A24775EC0001CAC4E /* MainMenu.xib */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21158AD024989DE000670C5C /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 		2193140324775EBD001CAC4E /* BFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2193140624775EBD001CAC4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2193140824775EC0001CAC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21158ACF24989DCF00670C5C /* 序列化 */ = {
+			isa = PBXGroup;
+			children = (
+				21158AD024989DE000670C5C /* Codec.swift */,
+			);
+			path = "序列化";
+			sourceTree = "<group>";
+		};
 		219313FA24775EBD001CAC4E = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 				219314692477A814001CAC4E /* Stack.swift */,
 				2193141724777092001CAC4E /* BFS.swift */,
 				219314672477A31B001CAC4E /* DFS.swift */,
+				21158ACF24989DCF00670C5C /* 序列化 */,
 				2193146B2477ACD6001CAC4E /* 按层打印 */,
 				2193140824775EC0001CAC4E /* Assets.xcassets */,
 				2193140A24775EC0001CAC4E /* MainMenu.xib */,
@@ -172,6 +183,7 @@
 			files = (
 				2193140724775EBD001CAC4E /* AppDelegate.swift in Sources */,
 				2193141524775EE0001CAC4E /* Queue.swift in Sources */,
+				21158AD124989DE000670C5C /* Codec.swift in Sources */,
 				2193141824777092001CAC4E /* BFS.swift in Sources */,
 				2193146D2477B182001CAC4E /* BFSLevel.swift in Sources */,
 				219314702477C296001CAC4E /* MaxDepth.swift in Sources */,

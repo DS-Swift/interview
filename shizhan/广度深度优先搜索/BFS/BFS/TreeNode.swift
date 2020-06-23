@@ -31,11 +31,11 @@ public func create(array: [Int]?) -> TreeNode<Int> {
     node.left = left1
     node.right = right1
 //    
-//    let left2 = TreeNode(data: 2)
-//    let right2 = TreeNode(data: 4)
+    let left2 = TreeNode(data: 2)
+    let right2 = TreeNode(data: 4)
 //    
-//    left1.left = left2
-//    left1.right = right2
+    left1.left = left2
+    left1.right = right2
 //    
 //    let left3 = TreeNode(data: 6)
 //    let right4 = TreeNode(data: 10)

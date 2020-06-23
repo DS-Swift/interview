@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1393E27BBFEEE298C71E2BC7 /* Pods_LingGaniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C405A182278A79A7A438D9F4 /* Pods_LingGaniOS.framework */; };
+		21B673B52489E2B30031A520 /* SSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B673B32489E2AB0031A520 /* SSView.swift */; };
 		21F8B28D24876F4900083689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F8B28C24876F4900083689 /* AppDelegate.swift */; };
 		21F8B28F24876F4900083689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F8B28E24876F4900083689 /* ViewController.swift */; };
 		21F8B29124876F4E00083689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F8B29024876F4E00083689 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		20B44816A07B7CBB762590E4 /* Pods_lingGan1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lingGan1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B673B32489E2AB0031A520 /* SSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSView.swift; sourceTree = "<group>"; };
 		21F8B28924876F4900083689 /* lingGan1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lingGan1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F8B28C24876F4900083689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F8B28E24876F4900083689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				21F8B28C24876F4900083689 /* AppDelegate.swift */,
 				21F8B28E24876F4900083689 /* ViewController.swift */,
+				21B673B32489E2AB0031A520 /* SSView.swift */,
 				21F8B29024876F4E00083689 /* Assets.xcassets */,
 				21F8B29224876F4E00083689 /* Main.storyboard */,
 				21F8B29524876F4E00083689 /* Info.plist */,
@@ -339,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F8B28F24876F4900083689 /* ViewController.swift in Sources */,
+				21B673B52489E2B30031A520 /* SSView.swift in Sources */,
 				21F8B2BD2487832F00083689 /* Config.swift in Sources */,
 				21F8B28D24876F4900083689 /* AppDelegate.swift in Sources */,
 				21F8B2BA24877A3600083689 /* Article.swift in Sources */,
