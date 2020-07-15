@@ -23,7 +23,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 //        d()
 //        find()
 //        m()
-        re()
+//        re()
+        remo()
     }
     
     func findK<T>(root: TreeNode<T>) {
@@ -66,6 +67,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let p = reverse(node: root)
         
         print(p)
+    }
+    func remo() {
+        let root = TreeNode.generate(array: [1, 2, 3, 4, 5])
+        let pp = removeNthFromEnd(root,2)
+        
     }
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application

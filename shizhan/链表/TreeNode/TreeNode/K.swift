@@ -24,3 +24,23 @@ public func findKth<T>(root: TreeNode<T>, k: Int) -> TreeNode<T>? {
     }
     return s
 }
+func removeNthFromEnd(_ head: TreeNode<Int>?, _ n: Int) -> TreeNode<Int>? {
+    var fast: TreeNode<Int>? = head
+    var slow: TreeNode<Int>? = head
+    let rs: TreeNode? = TreeNode(data: 0)
+    rs?.next = head
+    // fast = 3
+    for _ in 0 ..< n {
+        fast = fast?.next
+        if fast == nil {///n 等于整个长度
+            return head?.next
+        }
+    }
+    while (fast?.next != nil) {
+        fast = fast?.next
+        slow = slow?.next
+    }
+    //slow = 4->5
+    slow?.next = slow?.next?.next
+    return rs?.next
+}

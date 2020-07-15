@@ -21,6 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print(l)
         let n = stringReserve(str: "abcabcbbadcmlko")
         print(n)
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -30,3 +31,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 }
 
+class Solution {
+    func reverse(_ x: Int) -> Int {
+        var x = x
+        var rs = 0
+        while x != 0 {
+            let y = x % 10
+            let x = x / 10
+            rs = rs * 10 + y
+        }
+        if rs > Int32.max || rs < Int32.min {
+            return 0
+        }
+        return  rs
+    }
+}
